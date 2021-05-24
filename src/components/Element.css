@@ -1,0 +1,28 @@
+.element {
+  display: flex;
+  margin-top: 15px; 
+  border: 1px solid lightgray; 
+  width: 1000px;
+  height: 150px;  
+}
+
+.element__info {
+  flex-direction: row;
+}
+.element__avatarImage {
+  height: 150px;
+  width: 100px;
+  object-fit: contain;
+  padding-left: 20px; 
+  padding-bottom: 20px; 
+  padding-right: 20px; 
+}
+
+.element__infoStars { 
+    border: 1px solid black; 
+    padding: 0 10px; 
+}
+.element__infoIssues { 
+    border: 1px solid black; 
+    padding: 0 10px; 
+}
